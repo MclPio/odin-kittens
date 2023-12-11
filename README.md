@@ -1,24 +1,5 @@
-# README
+# Kittens API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Kitten application to set up Rails to render data instead of HTML.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[Kittens API](https://www.theodinproject.com/lessons/ruby-on-rails-kittens-api#assignment-2)
