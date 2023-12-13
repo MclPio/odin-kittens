@@ -1,0 +1,8 @@
+<h4>🐱Kitten List🐱</h4>
+<ul>
+  <% @kittens.each do |kitten| %>
+    <li>
+      <%= link_to kitten.name, kitten_path(kitten.id) %>
+    </li>
+  <% end %>
+</ul>

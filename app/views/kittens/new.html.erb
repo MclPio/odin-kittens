@@ -1,0 +1,80 @@
+<h4>🐱New Kitten🐱</h4>
+<%= form_with model: @kitten do |form| %>
+  <%= form.label(:name)%>
+  <%= form.text_field(:name)%>
+
+  <%= form.label(:age)%>
+  <%= form.number_field(:age)%>
+
+  <%= form.label(:cuteness)%>
+  <%= form.select :cuteness, ["Adorable 😻",
+                              "Cute 😺",
+                              "Charming 😸",
+                              "Sweet 🐾",
+                              "Playful 🐱"]%>
+
+  <%= form.label(:softness)%>
+  <%= form.select :cuteness, ["Silky Soft 🌟",
+                              "Fluffy ☁️",
+                              "Cuddly 🧸",
+                              "Velvety 🍃",
+                              "Gentle 🌸"]%>
+  
+  <%= form.submit %>
+<% end %>
+
+<h4>Levels of Cuteness</h4>
+<ol>
+    <li>Adorable:</li>
+      <ul>
+        <li>This level represents the highest degree of cuteness. Use it for kittens that are irresistibly charming and elicit immediate "awws" from anyone who sees them.</li>
+      </ul>
+
+    <li>Cute:</li>
+        <ul>
+          <li>A step below "adorable," this level is for kittens that are undeniably cute and endearing. They may not be the most adorable, but they still have that charm that makes people smile.</li>
+        </ul>
+
+    <li>Charming:</li>
+        <ul>
+          <li>Use this level for kittens that have a certain charisma or appeal. They may have unique features or behaviors that set them apart and make them charming.</li>
+        </ul>
+
+    <li>Sweet:</li>
+        <ul>
+          <li>For kittens that have a gentle and endearing quality, use the "sweet" level. These kittens may have a calm and affectionate demeanor that adds to their overall cuteness.</li>
+        </ul>
+
+    <li>Playful:</li>
+        <ul>
+          <li>This level is for kittens that are cute in an energetic and playful way. If a kitten is always up for a game or has a mischievous side, "playful" is the perfect descriptor.</li>
+        </ul>
+</ol>
+
+<h4>Levels of Softness</h4>
+<ol>
+    <li>Silky Soft:</li>
+      <ul>
+        <li>This level represents the highest degree of softness, akin to the smooth and luxurious feel of silk.</li>
+      </ul>
+
+    <li>Fluffy:</li>
+        <ul>
+          <li>Use this level for items that are soft and have a light, airy texture, much like the softness of fluffy clouds or cotton candy.</li>
+        </ul>
+
+    <li>Cuddly:</li>
+        <ul>
+          <li>For items that are not only soft but also evoke a warm and inviting feeling, like a cozy blanket or a plush toy perfect for cuddling.</li>
+        </ul>
+
+    <li>Velvety:</li>
+        <ul>
+          <li>This level signifies a softness with a slightly denser and velvety texture, similar to the feel of velvet.</li>
+        </ul>
+
+    <li>Gentle:</li>
+        <ul>
+          <li>Use this level for softness that is delicate and gentle, like the soft touch of a gentle breeze or a petal.  </li>
+        </ul>
+</ol>
