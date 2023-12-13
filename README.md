@@ -51,6 +51,7 @@ localhost:3000
 ```
 
 -API interface
+
 Before you continue, make sure you create a new kitten through the html page
 ```
 require 'rest-client'
@@ -63,7 +64,6 @@ puts json_response.body
 ```
 
 To get show json response:
-Make sure at least 1 kitten is created and you have its id
 ```
 show_json_response = RestClient.get("http://localhost:3000/kittens/1", accept: :json)
 puts show_json_response.body
