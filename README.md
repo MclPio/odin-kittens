@@ -19,17 +19,17 @@ Kitten application to set up Rails to render data instead of HTML from The Odin 
 <details>
   <summary>Click me</summary>
 
-- clone repository:
+clone repository:
 ```
 git clone https://github.com/MclPio/odin-kittens.git
 ```
 
-- install gems:
+install gems:
 ```
 bundle install
 ```
 
-- migrate data
+migrate data
 ```
 rails db:migrate
 ```
@@ -40,18 +40,18 @@ rails db:migrate
 <details>
   <summary>Click me</summary>
 
-- start server
+start server
 ```
 rails s
 ```
 
-- open in browser
+open in browser
 ```
 localhost:3000
 ```
 
 ### API interface
-..Before you continue, make sure you create a new kitten through the html page
+Before you continue, make sure you create a new kitten through the html page
 ```
 require 'rest-client'
 ```
