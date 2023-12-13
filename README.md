@@ -50,7 +50,7 @@ rails s
 localhost:3000
 ```
 
--API interface
+### API interface
 ..Before you continue, make sure you create a new kitten through the html page
 ```
 require 'rest-client'
