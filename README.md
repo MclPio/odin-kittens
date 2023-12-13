@@ -16,9 +16,6 @@ Kitten application to set up Rails to render data instead of HTML from The Odin 
 
 ## Installation
 
-<details>
-  <summary>Click me</summary>
-
 clone repository
 ```
 git clone https://github.com/MclPio/odin-kittens.git
@@ -33,12 +30,8 @@ migrate data
 ```
 rails db:migrate
 ```
-</details>
 
 ## Usage
-
-<details>
-  <summary>Click me</summary>
 
 start server
 ```
