@@ -5,8 +5,8 @@ Kitten application to set up Rails to render data instead of HTML from The Odin 
 
 ## Table of Content
 
-- [Installation](#installation)
 - [Features](#features)
+- [Installation](#installation)
 - [Usage](#usage)
 
 ## Features
@@ -51,8 +51,7 @@ localhost:3000
 ```
 
 -API interface
-
-Before you continue, make sure you create a new kitten through the html page
+..Before you continue, make sure you create a new kitten through the html page
 ```
 require 'rest-client'
 ```
