@@ -1,0 +1,23 @@
+<%= form_with model: @kitten do |form| %>
+  <%= form.label(:name)%>
+  <%= form.text_field(:name)%>
+
+  <%= form.label(:age)%>
+  <%= form.number_field(:age)%>
+
+  <%= form.label(:cuteness)%>
+  <%= form.select :cuteness, ["Adorable 😻",
+                              "Cute 😺",
+                              "Charming 😸",
+                              "Sweet 🐾",
+                              "Playful 🐱"]%>
+
+  <%= form.label(:softness)%>
+  <%= form.select :softness, ["Silky Soft 🌟",
+                              "Fluffy ☁️",
+                              "Cuddly 🧸",
+                              "Velvety 🍃",
+                              "Gentle 🌸"]%>
+  
+  <%= form.submit %>
+<% end %>
